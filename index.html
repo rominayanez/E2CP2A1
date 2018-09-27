@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>landing page</title>
+    <style media="screen">
+      body{
+        margin: 0;
+        font-family: sans-serif;
+      }
+      .header{
+        margin-top: 0;
+        width: 100%;
+        height: 200px;
+        padding-top: 100px;
+        background-image:url("images/bg.jpeg");
+        background-size: contain;
+      }
+      .h1{
+        text-align: center;
+        color: white;
+        font-size: 10px;
+        margin-top: 0;
+        clear: both;
+      }
+      .nav{
+        position: fixed;
+        top: 0;
+        height: 100px;
+        width: 100%;
+      }
+      ul{
+        list-style-type: none;
+      }
+      .nav ul li{
+        color: grey;
+        display: inline;
+        padding: 0px 10px;
+        float: right;
+        margin-right: 50px;
+      }
+      .logo{
+        height: 30px;
+        margin-top: 11px;
+        margin-left: 50px;
+        float: left;
+      }
+      .comienza{
+        color: white;
+        text-align: center;
+        background-color: #008CBA;
+        padding: 15px 10px;
+        font-size: 13px;
+        border-color: #008CBA;
+        border-radius: 12px;
+        border: none;
+        text-decoration: none;
+      }
+      .info{
+        color: white;
+        text-align: center;
+        background-color: #4CAF50;
+        padding: 15px 10px;
+        font-size: 13px;
+        border-color: #4CAF50;
+        border-radius: 12px;
+        border: none;
+        text-decoration: none;
+      }
+      .button{
+        text-align: center;
+      }
+      .bajada{
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        margin: 20px 50px;
+      }
+      .section1{
+        font-size: 12px;
+        text-align: center;
+        padding-top: 30px;
+      }
+      .p1{
+        font-size: 12px;
+        text-align: center;
+        margin: 25px 200px;
+
+      }
+      .foto1{
+        width: 25%;
+        display: block;
+        margin: auto;
+      }
+
+      .s2{
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        background-color: #F0F8FF;
+        padding-bottom: 30px;
+      }
+      .s3{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 35%;
+        float: left;
+        margin-left: 100px;
+        font-size: 12px;
+      }
+      #contacto{
+        margin-bottom: 10px;
+        font-size: 12px;
+
+      }
+      #correo{
+        margin-top: 10px;
+      }
+      aside{
+
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        float: right;
+        margin-right: 100px;
+        font-size: 12px;
+      }
+      footer{
+        clear: both;
+        background-color: black;
+        font-family: sans-serif;
+        font-size: 14px;
+        color: white;
+        bottom: 0;
+        height: 25px;
+        padding: 20px 70px;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <div class="header">
+      <nav class="nav">
+        <img class="logo" src="images/latam_logo.png" alt="latam_logo">
+        <ul>
+          <li>Equipo</li>
+          <li>Blog</li>
+          <li>Contacto</li>
+        </ul>
+      </nav>
+
+      <div class="h1">
+        <h1> COMIENZA UNA NUEVA VIDA Y <br>ÚNETE AL MUNDO <br>TECNOLÓGICO</h1>
+      </div>
+        <div class="button">
+          <button class="comienza" type="button" name="comienza">
+            comienza acá!
+          </button>
+          <button class="info" type="button" name="info">
+            Más info
+          </button>
+        <div class="bajada">
+          <p class="p1">Hay una escasez gigante de desarrolladores en el mundo y más aún en Latinoamérica, se necesitan más desarrolladores y Tú puedes ser uno!</p>
+        </div>
+        </div>
+      </div>
+
+      <section class="s1">
+        <div>
+          <h3 class="section1">EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE DE LATINOAMÉRICA</h3>
+          <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamExcepteur sint occaecat cupidatat non proident.</p>
+          <img class="foto1"src="images/viewing-gallery-for-happy-people.png" alt="">
+        </div>
+      </section>
+
+      <section class="s2">
+        <div>
+          <h3 class="section1"> SOLICITA INFORMACIÓN E INSCRÍBETE</h3>
+          <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamExcepteur sint occaecat cupidatat non proident.</p>
+        </div>
+
+        <div class="button">
+          <button class="comienza" type="button" name="Inscríbete">
+            Inscríbete!
+          </button>
+        </div>
+        <p class="p1">Vive la experiencia Desafío Latam</p>
+      </section>
+
+      <section class="s3">
+        <div>
+          <ul>
+            <li id="contacto"> Contacto </li>
+            <li><strong>Desafío Latam</strong></li>
+            <li>Ezequías Alliende 2361 </li>
+            <li>P: +56 9 5117 7975</li>
+            <li id="correo"><a href="http://www.gmail.com"> inscripciones@desafiolatam.com</a> </li>
+          </ul>
+        </div>
+      </section>
+
+      <aside class="Suscríbete">
+        <p>Suscríbete</p>
+        <form class="form" action="index.html" method="post">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+          <input type="text" placeholder="Ingresa tu mail...">
+          <input type="submit">
+        </form>
+      </aside>
+
+      <footer>
+        <p>DESAFIOLATAM 2016 - CURSO FULLSTACK G5</p>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
